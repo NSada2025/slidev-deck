@@ -20,27 +20,29 @@ fonts:
 colorSchema: 'dark'
 ---
 
-<div class="text-center">
-  <div class="relative">
-    <div class="absolute inset-0 blur-3xl opacity-20">
-      <div class="h-32 w-32 bg-gradient-to-r from-[#4FC3F7] to-[#FF7043] rounded-full mx-auto"></div>
+<div class="text-center mt-20">
+  <div class="relative inline-block">
+    <div class="absolute inset-0 blur-3xl opacity-30">
+      <div class="h-40 w-40 bg-gradient-to-r from-[#4FC3F7] to-[#FF7043] rounded-full"></div>
     </div>
-    <h1 class="logo floating text-6xl font-bold mb-4 relative">
-      <span class="gradient-text">ChoiAca</span>
+    <h1 class="relative text-7xl font-bold mb-8">
+      <span style="background: linear-gradient(135deg, #4FC3F7, #FF7043); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">ChoiAca</span>
     </h1>
   </div>
-</div>
-
-<div class="text-2xl font-light mt-4 text-white" v-click>
-  研究への第一歩を、もっと身近に
-</div>
-
-<div class="text-lg mt-4 text-gray-300" v-click="2">
-  学生の研究選択を支援するプラットフォーム
-</div>
-
-<div class="mt-8 text-sm text-gray-400 glass px-4 py-2 inline-block rounded-full" v-click="3">
-  <span class="text-gray-500">発表者</span> <span class="text-gray-300 font-medium">うぃりあむ、FTPS、さだ、らふい、ひな、湯元、星見</span>
+  
+  <p class="text-2xl font-light text-white mb-4" v-click>
+    研究への第一歩を、もっと身近に
+  </p>
+  
+  <p class="text-lg text-gray-300 mb-8" v-click="2">
+    学生の研究選択を支援するプラットフォーム
+  </p>
+  
+  <div class="text-sm text-gray-400 inline-block" v-click="3">
+    <div style="background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); padding: 8px 16px; border-radius: 24px;">
+      <span class="text-gray-500">発表者</span> <span class="text-gray-300 font-medium">うぃりあむ、FTPS、さだ、らふい、ひな、湯元、星見</span>
+    </div>
+  </div>
 </div>
 
 <style>
