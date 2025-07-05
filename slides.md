@@ -351,120 +351,120 @@ class: text-center
 # 数字で見る<span class="gradient-text">研究離れ</span>
 
 <!-- メインメッセージ：問題の核心 -->
-<div class="text-center mb-8" v-click>
-  <div class="inline-block glass p-6 border-2 border-[#FF7043]">
-    <div class="text-5xl font-bold text-[#FF7043] mb-2">71<span class="text-3xl">%</span></div>
-    <p class="text-xl text-white mb-1">研究への参入障壁を感じる学生</p>
-    <p class="text-sm text-gray-400">大多数が「難しそう」と感じている</p>
+<div class="text-center mb-6" v-click>
+  <div class="inline-block" style="background: linear-gradient(135deg, rgba(255,112,67,0.1), rgba(255,112,67,0.2)); border: 2px solid #FF7043; border-radius: 16px; padding: 32px 48px;">
+    <div class="text-6xl font-bold text-[#FF7043] mb-3">71<span class="text-4xl">%</span></div>
+    <p class="text-2xl text-white mb-2">研究への参入障壁を感じる学生</p>
+    <p class="text-base text-gray-300">大多数が「難しそう」と感じている</p>
   </div>
 </div>
 
 <!-- 左右対比：現状の規模と減少傾向 -->
-<div class="grid grid-cols-2 gap-8 mb-6">
+<div class="grid grid-cols-2 gap-6 mb-4 max-w-3xl mx-auto">
   <div v-click="2" class="text-center">
-    <div class="glass p-4">
-      <div class="text-3xl font-bold text-[#4FC3F7] mb-2">40<span class="text-xl">万人</span></div>
-      <p class="text-base text-gray-300">理系学部生の総数</p>
-      <p class="text-xs text-gray-500">潜在的な研究者候補</p>
+    <div style="background: rgba(79,195,247,0.1); backdrop-filter: blur(10px); border: 1px solid rgba(79,195,247,0.3); border-radius: 12px; padding: 24px;">
+      <div class="text-4xl font-bold text-[#4FC3F7] mb-2">40<span class="text-2xl">万人</span></div>
+      <p class="text-lg text-gray-300">理系学部生の総数</p>
+      <p class="text-sm text-gray-400">潜在的な研究者候補</p>
     </div>
   </div>
   
   <div v-click="3" class="text-center">
-    <div class="glass p-4">
-      <div class="text-3xl font-bold text-[#FF7043] mb-2">-5<span class="text-xl">%</span></div>
-      <p class="text-base text-gray-300">大学院進学率の減少</p>
-      <p class="text-xs text-gray-500">過去10年間の変化</p>
+    <div style="background: rgba(255,112,67,0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255,112,67,0.3); border-radius: 12px; padding: 24px;">
+      <div class="text-4xl font-bold text-[#FF7043] mb-2">-5<span class="text-2xl">%</span></div>
+      <p class="text-lg text-gray-300">大学院進学率の減少</p>
+      <p class="text-sm text-gray-400">過去10年間の変化</p>
     </div>
   </div>
 </div>
 
 <!-- 研究離れを示す複数のデータ -->
-<div v-click="4" class="mt-4">
-  <div class="text-center mb-3">
-    <h4 class="text-sm text-[#FFD54F] font-bold">研究離れの具体的証拠</h4>
-    <p class="text-xs text-gray-400">複数の指標が示す深刻な状況</p>
+<div v-click="4" class="mt-6">
+  <div class="text-center mb-4">
+    <h4 class="text-lg text-[#FFD54F] font-bold">研究離れの具体的証拠</h4>
+    <p class="text-sm text-gray-400">複数の指標が示す深刻な状況</p>
   </div>
   
-  <div class="grid grid-cols-2 gap-3 max-w-3xl mx-auto">
+  <div class="grid grid-cols-2 gap-4 max-w-4xl mx-auto">
     <!-- 左側：大学院生数 -->
-    <div class="glass p-2">
-      <h5 class="text-xs text-[#4FC3F7] font-bold mb-1">理系大学院生数</h5>
-      <div class="space-y-1">
-        <div class="flex items-center gap-1">
-          <span class="text-xs text-gray-400 w-6">18</span>
-          <div class="flex-1 h-2 bg-white/10 rounded relative">
-            <div class="h-full bg-[#4FC3F7] rounded" style="width: 100%"></div>
-            <span class="absolute right-0 top-0 text-xs text-white">12.5万</span>
+    <div style="background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 20px;">
+      <h5 class="text-base text-[#4FC3F7] font-bold mb-3">理系大学院生数</h5>
+      <div class="space-y-3">
+        <div class="flex items-center gap-3">
+          <span class="text-sm text-gray-400 w-12">2018</span>
+          <div class="flex-1 h-4 bg-white/10 rounded-full relative overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-[#4FC3F7] to-[#81C784] rounded-full transition-all duration-1000" style="width: 100%"></div>
           </div>
+          <span class="text-sm font-bold text-white w-16 text-right">12.5万</span>
         </div>
-        <div class="flex items-center gap-1">
-          <span class="text-xs text-gray-400 w-6">20</span>
-          <div class="flex-1 h-2 bg-white/10 rounded relative">
-            <div class="h-full bg-[#FFB74D] rounded" style="width: 85%"></div>
-            <span class="absolute right-0 top-0 text-xs text-white">10.6万</span>
+        <div class="flex items-center gap-3">
+          <span class="text-sm text-gray-400 w-12">2020</span>
+          <div class="flex-1 h-4 bg-white/10 rounded-full relative overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-[#FFB74D] to-[#FF7043] rounded-full transition-all duration-1000" style="width: 85%"></div>
           </div>
+          <span class="text-sm font-bold text-white w-16 text-right">10.6万</span>
         </div>
-        <div class="flex items-center gap-1">
-          <span class="text-xs text-gray-400 w-6">23</span>
-          <div class="flex-1 h-2 bg-white/10 rounded relative">
-            <div class="h-full bg-[#FF7043] rounded" style="width: 70%"></div>
-            <span class="absolute right-0 top-0 text-xs text-white">8.7万</span>
+        <div class="flex items-center gap-3">
+          <span class="text-sm text-gray-400 w-12">2023</span>
+          <div class="flex-1 h-4 bg-white/10 rounded-full relative overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-[#FF7043] to-[#FF5252] rounded-full transition-all duration-1000" style="width: 70%"></div>
           </div>
+          <span class="text-sm font-bold text-white w-16 text-right">8.7万</span>
         </div>
       </div>
-      <p class="text-xs text-red-400 mt-0">3.8万人減</p>
+      <p class="text-base text-red-400 font-bold mt-3 text-center">3.8万人減少</p>
     </div>
 
     <!-- 右側：研究室配属後の継続率 -->
-    <div class="glass p-2">
-      <h5 class="text-xs text-[#FFD54F] font-bold mb-1">研究活動継続意向</h5>
-      <div class="space-y-1">
-        <div class="flex items-center gap-1">
-          <span class="text-xs text-gray-400 w-6">1年</span>
-          <div class="flex-1 h-2 bg-white/10 rounded relative">
-            <div class="h-full bg-[#81C784] rounded" style="width: 100%"></div>
-            <span class="absolute right-0 top-0 text-xs text-white">85%</span>
+    <div style="background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 20px;">
+      <h5 class="text-base text-[#FFD54F] font-bold mb-3">研究活動継続意向</h5>
+      <div class="space-y-3">
+        <div class="flex items-center gap-3">
+          <span class="text-sm text-gray-400 w-12">1年目</span>
+          <div class="flex-1 h-4 bg-white/10 rounded-full relative overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-[#81C784] to-[#4FC3F7] rounded-full transition-all duration-1000" style="width: 85%"></div>
           </div>
+          <span class="text-sm font-bold text-white w-12 text-right">85%</span>
         </div>
-        <div class="flex items-center gap-1">
-          <span class="text-xs text-gray-400 w-6">2年</span>
-          <div class="flex-1 h-2 bg-white/10 rounded relative">
-            <div class="h-full bg-[#4FC3F7] rounded" style="width: 75%"></div>
-            <span class="absolute right-0 top-0 text-xs text-white">64%</span>
+        <div class="flex items-center gap-3">
+          <span class="text-sm text-gray-400 w-12">2年目</span>
+          <div class="flex-1 h-4 bg-white/10 rounded-full relative overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-[#4FC3F7] to-[#FFB74D] rounded-full transition-all duration-1000" style="width: 64%"></div>
           </div>
+          <span class="text-sm font-bold text-white w-12 text-right">64%</span>
         </div>
-        <div class="flex items-center gap-1">
-          <span class="text-xs text-gray-400 w-6">3年</span>
-          <div class="flex-1 h-2 bg-white/10 rounded relative">
-            <div class="h-full bg-[#FFB74D] rounded" style="width: 55%"></div>
-            <span class="absolute right-0 top-0 text-xs text-white">47%</span>
+        <div class="flex items-center gap-3">
+          <span class="text-sm text-gray-400 w-12">3年目</span>
+          <div class="flex-1 h-4 bg-white/10 rounded-full relative overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-[#FFB74D] to-[#FF7043] rounded-full transition-all duration-1000" style="width: 47%"></div>
           </div>
+          <span class="text-sm font-bold text-white w-12 text-right">47%</span>
         </div>
-        <div class="flex items-center gap-1">
-          <span class="text-xs text-gray-400 w-6">4年</span>
-          <div class="flex-1 h-2 bg-white/10 rounded relative">
-            <div class="h-full bg-[#FF7043] rounded" style="width: 35%"></div>
-            <span class="absolute right-0 top-0 text-xs text-white">30%</span>
+        <div class="flex items-center gap-3">
+          <span class="text-sm text-gray-400 w-12">4年目</span>
+          <div class="flex-1 h-4 bg-white/10 rounded-full relative overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-[#FF7043] to-[#FF5252] rounded-full transition-all duration-1000" style="width: 30%"></div>
           </div>
+          <span class="text-sm font-bold text-white w-12 text-right">30%</span>
         </div>
       </div>
-      <p class="text-xs text-red-400 mt-0">65%離脱</p>
+      <p class="text-base text-red-400 font-bold mt-3 text-center">65%が離脱</p>
     </div>
   </div>
 
   <!-- 追加の統計 -->
-  <div class="grid grid-cols-3 gap-2 mt-3 max-w-xl mx-auto">
-    <div class="glass p-1 text-center">
-      <div class="text-sm font-bold text-[#FF7043]">58%</div>
-      <p class="text-xs text-gray-400">情報不足</p>
+  <div class="grid grid-cols-3 gap-4 mt-6 max-w-3xl mx-auto">
+    <div style="background: rgba(255,112,67,0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255,112,67,0.2); border-radius: 12px; padding: 16px;" class="text-center">
+      <div class="text-2xl font-bold text-[#FF7043]">58%</div>
+      <p class="text-sm text-gray-300 mt-1">研究室選択で<br>「情報不足」</p>
     </div>
-    <div class="glass p-1 text-center">
-      <div class="text-sm font-bold text-[#FFB74D]">43%</div>
-      <p class="text-xs text-gray-400">興味を失う</p>
+    <div style="background: rgba(255,183,77,0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255,183,77,0.2); border-radius: 12px; padding: 16px;" class="text-center">
+      <div class="text-2xl font-bold text-[#FFB74D]">43%</div>
+      <p class="text-sm text-gray-300 mt-1">研究テーマに<br>「興味を失う」</p>
     </div>
-    <div class="glass p-1 text-center">
-      <div class="text-sm font-bold text-[#4FC3F7]">67%</div>
-      <p class="text-xs text-gray-400">後悔</p>
+    <div style="background: rgba(79,195,247,0.1); backdrop-filter: blur(10px); border: 1px solid rgba(79,195,247,0.2); border-radius: 12px; padding: 16px;" class="text-center">
+      <div class="text-2xl font-bold text-[#4FC3F7]">67%</div>
+      <p class="text-sm text-gray-300 mt-1">もっと早く<br>「知りたかった」</p>
     </div>
   </div>
 </div>
