@@ -20,14 +20,14 @@ fonts:
 colorSchema: 'dark'
 ---
 
-# <span class="gradient-text">ChoiAca</span> {.text-center}
-
-<div class="relative">
-  <div class="absolute inset-0 blur-3xl opacity-20">
-    <div class="h-32 w-32 bg-gradient-to-r from-[#4FC3F7] to-[#FF7043] rounded-full mx-auto"></div>
-  </div>
-  <div class="logo floating text-6xl font-bold mb-4 relative">
-    <span class="gradient-text">ChoiAca</span>
+<div class="text-center">
+  <div class="relative">
+    <div class="absolute inset-0 blur-3xl opacity-20">
+      <div class="h-32 w-32 bg-gradient-to-r from-[#4FC3F7] to-[#FF7043] rounded-full mx-auto"></div>
+    </div>
+    <h1 class="logo floating text-6xl font-bold mb-4 relative">
+      <span class="gradient-text">ChoiAca</span>
+    </h1>
   </div>
 </div>
 
