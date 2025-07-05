@@ -520,29 +520,43 @@ class: text-center
 
 # **なぜ今、行動が必要か？**
 
-<div class="space-y-4 mt-6 max-w-3xl mx-auto">
+<div class="max-w-4xl mx-auto mt-8">
+  <div class="space-y-6">
+    
+    <div v-click class="glass p-4 rounded-lg">
+      <div class="flex items-center justify-between mb-2">
+        <h4 class="text-lg font-bold text-[#4FC3F7]">コロナ禍の影響</h4>
+        <span class="text-2xl font-bold text-[#FF7043]">75%</span>
+      </div>
+      <div class="w-full h-3 bg-white/10 rounded-full overflow-hidden">
+        <div class="h-full bg-gradient-to-r from-[#4FC3F7] to-[#FF7043] rounded-full transition-all duration-1000" style="width: 75%;"></div>
+      </div>
+      <p class="text-sm text-gray-300 mt-2">3年間の交流機会が完全に失われ、研究の魅力を知る機会が激減</p>
+    </div>
 
-### **コロナ禍の影響**
-<div class="w-full h-5 bg-white/10 rounded-full overflow-hidden">
-<div class="h-full bg-gradient-to-r from-[#4FC3F7] to-[#FF7043] rounded-full flex items-center justify-center text-white font-bold text-xs" style="width: 75%;">
-3年間の交流機会喪失
-</div>
-</div>
+    <div v-click class="glass p-4 rounded-lg">
+      <div class="flex items-center justify-between mb-2">
+        <h4 class="text-lg font-bold text-[#FFD54F]">国際競争の激化</h4>
+        <span class="text-2xl font-bold text-[#FF7043]">85%</span>
+      </div>
+      <div class="w-full h-3 bg-white/10 rounded-full overflow-hidden">
+        <div class="h-full bg-gradient-to-r from-[#FFD54F] to-[#FF7043] rounded-full transition-all duration-1000" style="width: 85%;"></div>
+      </div>
+      <p class="text-sm text-gray-300 mt-2">欧州では若手支援の制度化が進み、日本の競争力低下が加速</p>
+    </div>
 
-### **国際競争の激化**
-<div class="w-full h-5 bg-white/10 rounded-full overflow-hidden">
-<div class="h-full bg-gradient-to-r from-[#4FC3F7] to-[#FF7043] rounded-full flex items-center justify-center text-white font-bold text-xs" style="width: 85%;">
-欧州では制度化が進行
-</div>
-</div>
-
-### **技術の成熟**
-<div class="w-full h-5 bg-white/10 rounded-full overflow-hidden">
-<div class="h-full bg-gradient-to-r from-[#4FC3F7] to-[#FF7043] rounded-full flex items-center justify-center text-white font-bold text-xs" style="width: 95%;">
-オンライン交流の日常化
-</div>
-</div>
-
+    <div v-click class="glass p-4 rounded-lg">
+      <div class="flex items-center justify-between mb-2">
+        <h4 class="text-lg font-bold text-[#81C784]">技術の成熟</h4>
+        <span class="text-2xl font-bold text-[#81C784]">95%</span>
+      </div>
+      <div class="w-full h-3 bg-white/10 rounded-full overflow-hidden">
+        <div class="h-full bg-gradient-to-r from-[#81C784] to-[#4FC3F7] rounded-full transition-all duration-1000" style="width: 95%;"></div>
+      </div>
+      <p class="text-sm text-gray-300 mt-2">オンライン交流が日常化し、プラットフォーム構築の最適なタイミング</p>
+    </div>
+    
+  </div>
 </div>
 
 ---
